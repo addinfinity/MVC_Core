@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace MVC_Core.Controllers
 {
-    [Authorize]
     public class MoviesController : Controller
     {
         private readonly ApplicationDbContext _context;
